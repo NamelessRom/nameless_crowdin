@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Extra packages not included in the main manifest -->
+  <project path="packages/nameless/NamelessServices" name="nameless-org/NamelessServices-resources" remote="github" revision="master" />
 
   <!-- Device repositories that can be translated -->
   <project path="device/oppo/common" name="NamelessRom/android_device_oppo_common" />
