@@ -38,6 +38,13 @@ Example:
     export NAMELESS_CROWDIN_BASE_PATH=/android/nameless
     export NAMELESS_CROWDIN_STABLE_BASE_PATH=/android/nameless/stable
 
+You have to set up a nameless git alias in ~/.gitconfig as well
+
+Example:
+
+    [url "ssh://USERNAME@review.nameless-rom.org:29518/"]
+        insteadOf = "nameless:"
+
 Execute:
 
     ./crowdin_sync.py --branch version --ticket jira_id [--upload-sources] [--upload-translations] [--download]
